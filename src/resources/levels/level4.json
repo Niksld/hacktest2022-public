@@ -1,0 +1,19 @@
+{
+    "name": "4. Level",
+    "points": 6,
+    "percentage": 40,
+    "available_devices": [0,1,2],
+    "available_commands": ["network", "nw", "sshcrack"],
+    "extra": {},
+    "quests": [
+        {"content": "Výborně, prolomení přes SSHCrack bylo úspěšné!\n\nNa tento server se údajně připojoval R0m4n. Musíš najít informace o jeho připojení, měly by obsahovat i IP adresu. Příkaz 'nw scan' vypíše seznam nedávno připojených zařízení.\n\nPřipomínka: V mapě sítě se k zařízení připojíš kliknutím na jeho ikonu.",
+        "available_commands": [],
+        "extra": {}},
+        {"content": "Na tento server se připojovalo spoustu zařízení, ale jen jedna patří právě R0m4novi. Prohledej soubory v serveru a hledej logy, kde by mohla být R0m4anova IP adresa uvedená (je to určitě jedna z těch, kterou objevil příkaz nw scan).\n\nAž ji najdeš, spusť SSHCrack právě na tu IP adresu příkazem 'sshcrack <IP adresa>'.\n\nPřipomínka: V mapě sítě se k zařízení připojíš kliknutím na jeho ikonu.\nPřipomínka: V prohlížeči souborů klikej levým na složky a soubory pro jejich otevření.",
+        "available_commands": [],
+        "extra": {}},
+        {"content": "Nyní máš přístup k laptopu jednoho z nejnebezpečnějších hackerů na světě. Vzhledem k tomu, že se stihnul zbavit se důkazů na svém laptopu, tak se musíš dostat na jeho telefon. Najdi na jeho laptopu hackovací nástroje, které ti umožní se dostat do jeho telefonu, a stáhni je (využij buď prohlížeč souborů nebo terminál).\n\nPřipomínka: V prohlížeči souborů klikej pravým na soubory pro zobrazení nabídky, ze které lze soubor stáhnout.\n\nPřipomínka: V terminálu můžeš vždy použít příkaz 'help' pro vypsání všech dostupných příkazů.",
+        "available_commands": [],
+        "extra": {"available_devices": [3]}}
+    ]
+}

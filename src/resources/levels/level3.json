@@ -1,0 +1,16 @@
+{
+    "name": "3. Level",
+    "points": 4,
+    "percentage": 20,
+    "available_devices": [0,1],
+    "available_commands": ["network", "nw"],
+    "extra": {},
+    "quests": [
+        {"content": "Skvěle! Teď, když už máš první hack pro nabourání do cizích serverů, se můžeš připojit na server, na který se údajně připojoval R0m4n.\n\nPamatuješ si příkaz, kterým se vyhledávají zařízení v síti? Spusť jej. Pokud ne, vždy můžeš použít příkaz help pro vypsání všech příkazů.",
+        "available_commands": ["sshcrack"],
+        "extra": {}},
+        {"content": "Příkaz nw scan objevil jedno zařízení s IP '103.101.45.120', je ale zabezpečené. Zkus se do něj nabourat právě hackem SSHCrack staženým dříve.\n\nSpustit ho můžeš v terminálu příkazem 'sshcrack <IP adresa>', jako IP adresu dej právě adresu zabezpečeného serveru.",
+        "available_commands": ["sshcrack"],
+        "extra": {}}
+    ]
+}

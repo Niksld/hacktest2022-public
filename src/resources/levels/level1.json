@@ -1,0 +1,13 @@
+{
+    "name": "1. Level",
+    "points": 0,
+    "percentage": 0,
+    "available_devices": [0],
+    "available_commands": [],
+    "extra": {},
+    "quests": [
+        {"content": "Ahoj! Vítej v Hacktestu. Jsme rádi, že pomůžeš najít důkazy o R0m4nově zločinu.\n\nAby se dalo připojit na ostatní zařízení v síti, musíš najít a odstranit soubor s nastavením firewallu. To můžeš udělat buď použitím prohlížeče souborů nebo terminálu.\n\nV prohlížeči souborů klikej levým na složky a soubory pro jejich otevření. Kliknutím pravým na soubor se ukáže nabídka, ze které můžeš soubor smazat.\n\nPokud se rozhodneš pro terminál, budou se ti hodit příkazy 'ls', 'cd <složka>' a 'rm <soubor>'. Příkaz ls vypíše obsah složky, cd naviguje do podsložky a rm maže soubory. Vždy můžeš použít příkaz help pro vypsání všech příkazů. Po napsání příkazu stiskni Enter pro jeho spuštění.",
+        "available_commands": [],
+        "extra": {}}
+    ]
+}

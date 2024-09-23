@@ -1,0 +1,13 @@
+{
+    "name": "KONEC HRY",
+    "points": 20,
+    "percentage": 100,
+    "available_devices": [0,1,2,3,4],
+    "available_commands": ["network", "nw", "sshcrack", "tunnelexploit", "gesturehack"],
+    "extra": {},
+    "quests": [
+        {"content": "Gratulujeme k dosažení konce hry!\n\n\nVývojáři:\n\tNiksld\n\tOndrejtra\n\tMichaelCZE\n\n",
+        "available_commands": [],
+        "extra": {}}    
+    ]
+}

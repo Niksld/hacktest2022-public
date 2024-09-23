@@ -1,0 +1,58 @@
+{
+"name": "root",
+"type": "dir",
+"content": {
+
+    "Server": {
+        "name": "Server",
+        "type": "dir",
+        "content": {
+            "server.info": {
+                "name": "server.info",
+                "type": "text",
+                "downloadable": true,
+                "removable": false,
+                "content": "IPv4 address: 192.168.0.103\nIPv6 address: b6ba:38ad:3fd3:774f:21d4:a775:1458:1a06\nServerName: HomeServer\nConnected Users: localhost"
+            },
+
+            "server.log": {
+                "name": "server.log",
+                "type": "text",
+                "downloadable": true,
+                "removable": false,
+                "content": "[Wed Jan 19 15:07:27 2022] [error] [client 192.168.0.69] File does not exist: /download/beemovie.mp4\n[Mon Jan 31 12:24:05 2022] [error] [client 192.168.0.69] File does not exist: /download/ip.txt "
+            }
+            
+        }
+    },
+
+    "download": {
+        "name": "download",
+        "type": "dir",
+        "content": {
+
+            "supertajneinfo.txt": {
+                "name": "supertajneinfo.txt",
+                "type": "text",
+                "downloadable": true,
+                "removable": false,
+                "content": "Tento soubor nelze otevřít z toho důvodu,\nže jsou v něm příliš super tajné informace."
+            }
+        }
+    },
+
+    "hacking-tools": {
+        "name": "hacking-tools",
+        "type": "dir",
+        "content": {
+            "sshcrack.exe": {
+                "name": "sshcrack.exe",
+                "type": "exe",
+                "downloadable": true,
+                "removable": false,
+                "content": ""
+            }
+        }
+    }
+}
+}

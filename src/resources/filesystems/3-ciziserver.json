@@ -1,0 +1,91 @@
+{
+"name": "root",
+"type": "dir",
+"content": {
+    "Welcome.txt": {
+        "name": "Welcome.txt",
+        "type": "text",
+        "downloadable": true,
+        "removable": true,
+        "content": "Vítejte na serveru pro ty nejlepší z nejlepších\n--------------------------------------------\nVítejte na serveru TestServer"
+    },
+    "Server": {
+        "name": "Server",
+        "type": "dir",
+        "content": {
+            "server.info": {
+                "name": "server.info",
+                "type": "text",
+                "downloadable": true,
+                "removable": false,
+                "content": "SERVER INFORMATION\n--------------------\nIPv4 address: 254.201.219.55\nIPv6 address: 3c73:5bdd:136d:9c4d:452c:7f4a:6167:3ee4\nServerName: TestServer\nConnected Users: 75.98.63.132"
+            },
+
+            "server.log": {
+                "name": "server.log",
+                "type": "text",
+                "downloadable": true,
+                "removable": false,
+                "content": "[Tue Oct 5 14:28:22 2021] [error] [client 192.168.0.12] Server error: server.info not found\n[Wed Oct 6 00:08:07 2021] [info] [client 99.168.228.5] has connected\n[Wed Oct 20 20:13:04 2021] [info] [client 104.225.226.191] has connected\n[Sat Dec 18 22:47:49 2021] [info] [client 88.174.100.24] has connected\n[Thu Dec 30 16:25:34 2021] [info] [client 36.237.142.215] has connected\n[Fri Jan 7 12:20:32 2022] [info] [client 99.168.228.5] created Welcome.txt\n[Fri Jan 7 12:41:10 2022] [info] [client 85.45.120.95] has connected"
+            },
+
+            "chat.log": {
+                "name": "chat.log",
+                "type": "text",
+                "downloadable": true,
+                "removable": false,
+                "content": "[Wed Oct 6 00:08:08 2021] [SERVER] User joined: Scr4p3r\n[Wed Oct 6 00:08:12 2021] [Scr4p3r] test\n[Wed Oct 6 00:08:13 2021] [Scr4p3r] test\n[Wed Oct 6 00:08:14 2021] [Scr4p3r] test\n[Wed Oct 6 00:08:16 2021] [SERVER] User left: Scr4per (Client disconnect)\n[Wed Oct 20 20:08:37 2021] [SERVER] User joined: Scr4per\n[Wed Oct 20 20:12:58 2021] [SERVER] User joined: Macr0\n[Wed Oct 20 20:13:10 2021] [Scr4p3r] vítej na serveru Macro\n[Wed Oct 20 20:13:12 2021] [Macr0] čau\n[Wed Oct 20 20:13:15 2021] [Scr4p3r] dobrý, tak to funguje\n[Wed Oct 20 20:13:20 2021] [Macr0] super\n[Wed Oct 20 20:13:36 2021] [Scr4p3r] brb\n[Wed Oct 20 20:30:05 2021] [SERVER] User left: Scr4per (Timeout)\n[Wed Oct 20 20:30:05 2021] [Macr0] bruh\n[Wed Oct 20 22:48:05 2021] [SERVER] User joined: B1tt3r\n[Sat Dec 18 22:48:25 2021] [B1tt3r] je tady někdo?\n[Sat Dec 18 22:48:40 2021] [Macr0] já jsem tady, ahoj\n[Sat Dec 18 22:48:45 2021] [Macr0] Scraper tady teď není\n[Sat Dec 18 22:49:12 2021] [B1tt3r] aha\n[Thu Dec 18 22:50:01 2021] [SERVER] User left: Macr0\n[Thu Dec 30 16:25:30 2021] [SERVER] Users joined: Macr0, Scr4p3r\n[Thu Dec 30 16:25:34 2021] [Macr0] čau, připojil jsem se i z telefonu\n[Thu Dec 30 16:25:40 2021] [Scr4p3r] ok dobře\n[Thu Dec 30 16:26:30 2021] [SERVER] Users left: Macr0, Scr4p3r\n[Fri Jan 7 12:36:10 2022] [SERVER] ERR - Log discrepency\n[Fri Jan 7 12:38:05 2022] [SERVER] Users joined: Macr0, Scr4p3r\n[Fri Jan 7 12:38:10 2022] [Scr4p3r] měli bychom najít nějaké dobré hackery, co říkáte?\n[Fri Jan 7 12:38:20 2022] [Macr0] proč ne, ale koho pozveme?\n[Fri Jan 7 12:38:31 2022] [Scr4p3r] já vím přesně koho\n[Fri Jan 7 12:38:35 2022] [SERVER] User joined: B1tt3r\n[Fri Jan 7 12:41:05 2022] [SERVER] User joined: 85.45.120.95\n[Fri Jan 7 12:41:15 2022] [85.45.120.95] dobrý den\n[Fri Jan 7 12:41:18 2022] [B1tt3r] a to je kdo?\n[Fri Jan 7 12:41:23 2022] [SERVER] Scr4p3r has renamed '85.45.120.95' to 'R0m4n'\n[Fri Jan 7 12:41:29 2022] [Scr4p3r] už jsem ti nastavil jmenovku, Romane\n[Fri Jan 7 12:42:18 2022] [B1tt3r] TO JE R0M4N!!!\n[Fri Jan 7 12:42:23 2022] [R0m4n] říkali jste, že hledáte ty nejlepší z nejlepších...\n[Fri Jan 7 12:42:34 2022] [R0m4n] proč?\n[Fri Jan 7 12:43:14 2022] [Scr4p3r] BSI se rozhodla, že nás chce zastavit, jelikož prodáváme soukromé informace Fakebooku\n[Fri Jan 7 12:43:23 2022] [Scr4p3r] máme z toho solidní peníze a tobě můžeme dát taky, jestli jsi nám ochotný pomoci\n[Fri Jan 7 12:43:41 2022] [R0m4n] kolik z toho budu mít?\n[Fri Jan 7 12:44:21 2022] [Scr4p3r] 10 000 000 Euro za úspěšné zneškodnění BSI"
+            },
+            "README.txt":{
+                "name": "README.txt",
+                "type": "text",
+                "downloadable": false,
+                "removable": true,
+                "content": "haha podíval ses"
+            }
+            
+        }
+    },
+    "download": {
+        "name": "download",
+        "type": "dir",
+        "content": {
+            "cute_katos": {
+                "name": "cute_katos",
+                "type": "dir",
+                "content":{
+                    "kocka1.png": {
+                        "name": "kocka1.png",
+                        "type": "image",
+                        "content":"kocka3-min.png",
+                        "downloadable": true,
+                        "removable": false
+                    },
+                    "kockaToo.png": {
+                        "name": "kockaToo.png",
+                        "type": "image",
+                        "content":"kocka2-min.png",
+                        "downloadable": true,
+                        "removable": false
+                    },
+                    "CatInTheBox.png": {
+                        "name": "CatInTheBox.png",
+                        "type": "image",
+                        "content":"kocka1-min.png",
+                        "downloadable": true,
+                        "removable": false
+                    }
+                }
+            },
+
+            "BSIINFO.txt": {
+                "name": "BSIINFO.txt",
+                "type": "text",
+                "downloadable": true,
+                "removable": false,
+                "content": "BSI má v plánu zneškodnit celou naši organizaci a to jim nesmíme dovolit!!!\nmusíme najít ty nejlepší hackery a zastavit jejich plány!"
+            }
+        }
+    }
+}
+}    

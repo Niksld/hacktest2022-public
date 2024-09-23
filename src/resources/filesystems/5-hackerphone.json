@@ -1,0 +1,136 @@
+{
+"name": "root",
+"type": "dir",
+"content": {
+    "droid": {
+        "name": "droid",
+        "type": "dir",
+        "content": {
+            "apps": {
+                "name": "apps",
+                "type": "dir",
+                "content": {
+                    "jetride.apk": {
+                        "name": "jetride.apk",
+                        "type": "apk",
+                        "downloadable": true,
+                        "removable": false,
+                        "content": ""
+                    },
+
+                    "roadracing.apk": {
+                        "name": "roadracing.apk",
+                        "type": "apk",
+                        "downloadable": true,
+                        "removable": false,
+                        "content": ""
+                    }
+
+                }
+            }
+        }
+    },
+
+    "Gallery": {
+        "name": "Gallery",
+        "type": "dir",
+        "content": {
+            "Camera": {
+                "name": "Camera",
+                "type": "dir",
+                "content": {
+                    "IMG_202254897915.png": {
+                        "name": "IMG_202254897915.png",
+                        "type": "image",
+                        "downloadable": true,
+                        "removable": false,
+                        "content": "hackers.png"
+                    },
+                    "IMG_2022548979145.png": {
+                        "name": "IMG_2022548979145.png",
+                        "type": "image",
+                        "downloadable": true,
+                        "removable": false,
+                        "content": "bitcoin.png"
+                    },
+                    "IMG_2022548979184.png": {
+                        "name": "IMG_2022548979184.png",
+                        "type": "image",
+                        "downloadable": true,
+                        "removable": false,
+                        "content": "waterfall.png"
+                    }
+                }
+            },
+
+            "Screenshots": {
+                "name": "Screenshots",
+                "type": "dir",
+                "content": {
+                    "Screenshot_202215649879.png": {
+                        "name": "Screenshot_202215649879.png",
+                        "type": "image",
+                        "downloadable": true,
+                        "removable": false,
+                        "content": "Screenshot_1.png"
+                    },
+                    "Screenshot_202215649412.png": {
+                        "name": "Screenshot_202215649412.png",
+                        "type": "image",
+                        "downloadable": true,
+                        "removable": false,
+                        "content": "tierlist.png"
+                    }
+                }
+            }
+        }
+    },
+
+    "download": {
+        "name": "download",
+        "type": "dir",
+        "content": {
+            "download_727u%iwysiXhjpuQ_oi(1).jpeg": {
+                "name": "download_727u%iwysiXhjpuQ_oi(1).jpeg",
+                "type": "image",
+                "downloadable": true,
+                "removable": false,
+                "content": "bumprask.png"
+            },
+            "movies": {
+                "name": "movies",
+                "type": "dir",
+                "content": {
+                    "howtostealnuclearcode.mp4": {
+                        "name": "howtostealnuclearcode.mp4",
+                        "type": "text",
+                        "downloadable": true,
+                        "removable": false,
+                        "content": "File system error: File Corrupted"
+                    }
+                }
+            },
+            "stolenNFTs": {
+                "name": "stolenNFTs",
+                "type": "dir",
+                "content": {
+                    "boreddogboatclub--165798198651.heic": {
+                        "name": "boreddogboatclub--165798198651.heic",
+                        "type": "image",
+                        "downloadable": false,
+                        "removable": true,
+                        "content": "pes1-min.png"
+                    },
+                    "boreddogboatclub--090013790062.heic": {
+                        "name": "boreddogboatclub--090013790062.heic",
+                        "type": "image",
+                        "downloadable": false,
+                        "removable": true,
+                        "content": "pes2-min.png"
+                    }
+                }
+            }
+        }
+    }
+}
+}

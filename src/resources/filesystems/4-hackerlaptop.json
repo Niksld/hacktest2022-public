@@ -1,0 +1,181 @@
+{
+"name": "root",
+"type": "dir",
+"content": {
+    "Users": {
+        "name": "Users",
+        "type": "dir",
+        "content": {
+            "Documents": {
+                "name": "Documents",
+                "type": "dir",
+                "content": {
+                    "BSI.docx": {
+                        "name": "BSI.docx",
+                        "type": "text",
+                        "downloadable": true,
+                        "removable": true,
+                        "content": "BSI (Bezpečnost Služeb Informatiky)\n\nTajná organizace, která má za učel zabránit\nhackerům před provedením nebezpečných akcí,\nnapříklad krádeží hesel, prodávání soukromých dat,\nnebo ukradení tajného jaderného kódu Severní Korey."
+                    },
+
+                    "TODO.docx": {
+                        "name": "TODO.docx",
+                        "type": "text",
+                        "downloadable": true,
+                        "removable": true,
+                        "content": "Mé zločinecké plány\n\n1) vykrást banku (dokončeno)\n2) hacknout počítač spolužákovi (nemám ho rád) (dokončeno)\n3) připojit se ke zločinecké organizaci (dokončeno)\n4) ukrást severokorejské jaderné kódy (dokončeno)\n5) odpálit jadernou bombu (nedokončeno)"
+                    }
+
+                }
+            }
+        }
+                
+    },
+    "download": {
+        "name": "download",
+        "type": "dir",
+        "content": {
+            "vyhraljste.png": {
+                "name": "vyhraljste.png",
+                "type": "image",
+                "downloadable": true,
+                "removable": false,
+                "content": "gratulujeme.png"
+            },
+            "movies": {
+                "name": "movies",
+                "type": "dir",
+                "content": {
+                    "beemovie.mp4": {
+                        "name": "beemovie.mp4",
+                        "type": "text",
+                        "downloadable": true,
+                        "removable": false,
+                        "content": "Mp4 player not found"
+                    }
+                    
+                }
+            },
+            "music": {
+                "name": "music",
+                "type": "dir",
+                "content": {
+                }
+            },
+            "Nova_slozka":{
+                "name": "Nova_slozka",
+                "type": "dir",
+                "content": {
+                    "DMware_Replayer.exe": {
+                        "name": "DMWare_Replayer.exe",
+                        "type": "exe",
+                        "downloadable": false,
+                        "removable": false,
+                        "content": ""
+                    },
+                    "virtualky": {
+                        "name": "virtualky",
+                        "type": "dir",
+                        "content": {   
+                            "Wokna10":{
+                                "name":"Wokna10",
+                                "type":"dir",
+                                "content":{
+                                    "VirtualHardDrive.hdd": {
+                                        "name":"VirtualHardDrive.hdd",
+                                        "type":"hdd",
+                                        "content":"",
+                                        "downloadable":false,
+                                        "removable":true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            },
+            "Nova_slozka(1)":{
+                "name": "Nova_slozka(1)",
+                "type": "dir",
+                "content": {
+                    "hax-mobile": {
+                        "name": "hax-mobile",
+                        "type": "dir",
+                        "content": {
+                            "TunnelExpl0it.exe": {
+                                "name": "TunnelExpl0it.exe",
+                                "type": "exe",
+                                "downloadable": true,
+                                "removable": false,
+                                "content": ""
+                            },
+                            "mobile-gesture-hack.exe": {
+                                "name": "mobile-gesture-hack.exe",
+                                "type": "exe",
+                                "downloadable": true,
+                                "removable": false,
+                                "content": ""
+                            }
+                        }
+                    },
+                    "hax-server": {
+                        "name": "hax-server",
+                        "type": "dir",
+                        "content": {
+                            "bsi-server-zeroday.exe": {
+                                "name": "bsi-server-zeroday.exe",
+                                "type": "exe",
+                                "downloadable": false,
+                                "removable": false,
+                                "content": ""
+                            },
+                            "bootsec-jelly-hack.exe": {
+                                "name": "bootsec-jelly-hack.exe",
+                                "type": "exe",
+                                "downloadable": false,
+                                "removable": false,
+                                "content": ""
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "network": {
+        "name": "network",
+        "type": "dir",
+        "content": {
+            "firewall": {
+                "name": "firewall",
+                "type": "dir",
+                "content": {
+                    "configuration.cfg": {
+                        "name": "configuration.cfg",
+                        "type": "text",
+                        "downloadable": false,
+                        "removable": true,
+                        "content": "FIREWALL CONFIGURATION FILE\n\nenabled=FALSE\nblocked-ips=*\nlog=FALSE"
+                    }
+                }
+            },
+            "local": {
+                "name": "local",
+                "type": "dir",
+                "content": {
+                    "ipconfig.cfg": {
+                        "name": "ipconfig.cfg",
+                        "type": "text",
+                        "downloadable": true,
+                        "removable": false,
+                        "content": "HackOS IP Configuration\n\nEthernet adapter Ethernet:\n\n  Connection-specific DNS Suffix  . : gon.cz\n  Link-local IPv6 Address . . . . . : 8704:e5cf:12ec:fb99:81b0:86bc:9f1d:5f46\n  IPv4 Address. . . . . . . . . . . : 192.168.0.12\n  Subnet Mask . . . . . . . . . . . : 255.255.255.0\n  Default Gateway . . . . . . . . . : 192.168.1.1"
+                    }
+
+                }
+            }
+        }
+        
+    }
+}
+}

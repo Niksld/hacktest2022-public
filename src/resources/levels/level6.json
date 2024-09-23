@@ -1,0 +1,13 @@
+{
+    "name": "6. Level",
+    "points": 18,
+    "percentage": 90,
+    "available_devices": [0,1,2,3,4],
+    "available_commands": ["network", "nw", "sshcrack", "tunnelexploit", "gesturehack"],
+    "extra": {},
+    "quests": [
+        {"content": "Je to opravdu on! Sděl BSI kód, který měl R0m4n ve svém telefonu (je to 691337).",
+        "available_commands": [],
+        "extra": {}}    
+    ]
+}

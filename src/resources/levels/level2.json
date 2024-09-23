@@ -1,0 +1,16 @@
+{
+    "name": "2. Level",
+    "points": 1,
+    "percentage": 5,
+    "available_devices": [0],
+    "available_commands": ["network", "nw"],
+    "extra": {},
+    "quests": [
+        {"content": "Výborně! Smazání souboru s nastavením firewallu se ti podařilo, odteď funguje příkaz 'nw'. Vyhledej vlastní server spuštěním příkazu 'nw scan'.\n\nPřipomínka: Příkaz vepiš do pole pod terminálem a stiskni Enter.",
+        "available_commands": [],
+        "extra": {}},
+        {"content": "Mapa sítě vlevo dole zobrazuje všechna dostupná zařízení v síti. Nejvíce nalevo je tvůj počítač, vedle něj je tvůj server. Kliknutím na ikonu zařízení se na zařízení připojíš.\n\nPo připojení na vlastní server najdi a stáhni tvůj první hack: 'sshcrack.exe'. Opět si můžeš vybrat mezi prohlížečem souborů a terminálem.\n\nPřipomínka: V prohlížeči souborů klikej levým na složky a soubory pro jejich otevření. Kliknutím pravým na soubor se ukáže nabídka, ze které můžeš soubor smazat.\n\nPřipomínka: V terminálu se ti budou hodit příkazy 'ls', 'cd <složka>' a 'dl soubor'. Příkaz vepiš do pole pod terminálem a stiskni Enter.",
+        "available_commands": [],
+        "extra": {"available_devices": [0,1]}}
+    ]
+}

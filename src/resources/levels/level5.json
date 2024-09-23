@@ -1,0 +1,23 @@
+{
+    "name": "5. Level",
+    "points": 12,
+    "percentage": 60,
+    "available_devices": [0,1,2,3],
+    "available_commands": ["network", "nw", "sshcrack", "tunnelexploit", "gesturehack"],
+    "extra": {},
+    "quests": [
+        {"content": "Skvěle, tyto hacky se nám určitě budou hodit. Oskenuj síť a zjisti, jakou IP adresu má R0m4nův telefon.",
+        "available_commands": [],
+        "extra": {}},
+        {"content": "IP adresa R0m4nova telefonu je skrytá pod URL VPN 'nerdvpn.secure.net'.\n\nHackovací nástroj TUNN3L3XPL0IT, stažený z jeho notebooku, by mohl pomoct s odhalením skutečné IP adresy. V terminálu ho spusť příkazem 'tunnelexploit <URL VPN>'.",
+        "available_commands": [],
+        "extra": {}},
+        {"content": "Nabourej se do R0m4anova telefonu použitím nástroje GestureHack. Spusť ho v terminálu příkazem 'gesturehack <IP adresa>'. IP adresa, kterou ti odhalil TUNN3L3XPL0IT, je 65.42.240.120.\n\nNápověda: Očíslovaná tlačítka znázorňují body gesta. Například gesto do tvaru písmene M by mělo pořadí 7415963 nebo 9635147.\nMy ale správné gesto neznáme. Jakmile objevíš správnou kombinaci, proklikávej všechna tlačítka, dokud neobjevíš to správné. To opakuj tak dlouho, dokud nebudeš mít celé gesto.",
+        "available_commands": [],
+        "extra": {}},
+        {"content": "Prohledej R0m4nův telefon a najdi důkazy. Pokud nějaké najdeš, stáhni je.",
+        "available_commands": [],
+        "extra": {"available_devices": [0,1,2,3,4]}}
+            
+    ]
+}
