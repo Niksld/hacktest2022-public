@@ -16,6 +16,13 @@ Minimum requirements:
 - [Ondrejtra](https://github.com/Ondrejtra)
 - [MichaelCZE](https://github.com/MichaelCZE)
 
+## __Note__
+
+This game was made with now deprecated tools and doesn't work correctly anymore. Also of note is the .exe release - which Windows now falsely flags
+as a virus. This is due to an (at the time) unresolved PyInstaller issue and the fact the game has no digital signature.
+
+This repo is __not__ an updated version of the game, just a public release of the old code.
+
 ## EXE bundling via PyInstaller
 
 - Clone or download the repository
@@ -25,3 +32,21 @@ Minimum requirements:
   - Required non-bundled Python modules are listed in [requirements.txt](requirements.txt)
 - The resulting EXE file can be found in `src/dist`
 - Before running again, remove `src/Hacktest.spec`, `src/dist`, `src/build` and `src/__pycache__`
+
+## Running the project
+
+- Install requirements via:
+
+```bash
+pip install -r requirements.txt
+```
+
+- Run the game
+
+```bash
+python3 ./src/main.py
+```
+
+## Preview
+
+![hacktest2022 preview](./src/resources/images/htest22_demo.gif)
